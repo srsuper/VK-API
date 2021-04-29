@@ -2,6 +2,7 @@
 <title> VK Downloader : Search And Download YouTube Videos </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 <style>
 
 .video-list-thumbs{}
@@ -24,12 +25,14 @@
   text-decoration:none
 }
 .video-list-thumbs h2{
+  font-family: 'Kanit', sans-serif;
   bottom: 0;
   font-size: 14px;
   height: 33px;
   margin: 8px 0 0;
 }
 .video-list-thumbs .glyphicon-play-circle{
+  font-family: 'Kanit', sans-serif;
     font-size: 60px;
     opacity: 0.6;
     position: absolute;
@@ -44,6 +47,7 @@
   text-shadow:0 1px 3px rgba(0,0,0,.8);
 }
 .video-list-thumbs .duration{
+  font-family: 'Kanit', sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   color: #fff;
@@ -61,11 +65,13 @@
 }
 @media (min-width:320px) and (max-width: 480px) { 
   .video-list-thumbs .glyphicon-play-circle{
+    font-family: 'Kanit', sans-serif;
     font-size: 35px;
     right: 36%;
     top: 27%;
   }
   .video-list-thumbs h2{
+    font-family: 'Kanit', sans-serif;
     bottom: 0;
     font-size: 12px;
     height: 22px;
